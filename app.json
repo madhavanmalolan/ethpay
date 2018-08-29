@@ -1,6 +1,25 @@
 {
   "expo": {
     "sdkVersion": "27.0.0",
-    "scheme": "ethsign"
+    "scheme": "ethpay",
+    "platforms": ["ios", "android"],
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F8FF"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ethpay.app",
+      "buildNumber" : "1"
+    },
+    "android": {
+      "versionCode" : 1,
+      "package": "com.ethpay.app"
+    }
+
   }
 }

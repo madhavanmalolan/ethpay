@@ -1,5 +1,5 @@
 import {INFURA_KEY} from './Secrets'
-exports.infura = "https://rinkeby.infura.io/v3/"+INFURA_KEY;
+exports.infura = "https://mainnet.infura.io/v3/"+INFURA_KEY;
 exports.Theme = {
     text : "#203145",
     accent: "#203145",
